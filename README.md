@@ -4,3 +4,16 @@
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/16767381/12499596/f3b84696-c079-11e5-9501-c3bed4f26519.png" width="400">
 </p>
+
+```
+MojoLinkExtract.py
+```
+Extracts the links for each movie profile page (approx 16,101) and writes them as comma separated strings into MovieLinks.txt.
+```
+MovieLinks.txt
+```
+Comma separated strings for each partial movie link to box office mojo. Must be preceded with `http://www.boxofficemojo.com`.
+```
+MojoMovieData.py
+```
+Extracts movie data in the example image above.
